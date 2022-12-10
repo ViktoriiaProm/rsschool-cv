@@ -18,3 +18,9 @@ convenience in all areas, which can be transferred to software code.
 - HTML
 - CSS
 - JavaScript(Basic)
+
+## Education
+
+- National university of shipbuilding name admiral Makarov
+
+* SheCode courses
