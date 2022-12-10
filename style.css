@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 1300px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.leftimg {
+    float: left;
+    margin: 0px 25px 15px 30px;
+}
+
+.about-me {
+    font-size: 18px;
+    padding: 50px;
+    margin: 5px;
+    max-width: 1000px;
+}
+
+.education {
+    font-size: 18px;
+    padding: 40px;
+    margin: 5px;
+}
+
+.contact {
+    font-size: 18px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.languages {
+    font-size: 18px;
+    padding: 20px;
+    margin: 5px;
+}
