@@ -30,3 +30,13 @@ convenience in all areas, which can be transferred to software code.
 - Russion (native)
 - English (A2)
 - Ukrainian (native)
+
+## Code example:
+
+``` 
+function handleError(error = {}) {
+
+  if (!error.requestType) {
+    error = new errors.UnexpectedError({ original_error: error });
+  } 
+  ```
