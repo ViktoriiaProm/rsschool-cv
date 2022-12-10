@@ -24,3 +24,9 @@ convenience in all areas, which can be transferred to software code.
 - National university of shipbuilding name admiral Makarov
 
 * SheCode courses
+
+## Languages:
+
+- Russion (native)
+- English (A2)
+- Ukrainian (native)
