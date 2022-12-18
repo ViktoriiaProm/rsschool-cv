@@ -1,7 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #FFFFFF;
-
+    background: #b1e5eb;
 }
 
 a {
@@ -45,7 +44,7 @@ a {
 
 header {
     display: flex;
-    background-color: rgb(162, 152, 152);
+    background-color: rgb(188, 112, 228);
 }
 
 #burger-button:hover {
@@ -59,6 +58,7 @@ my-photo {
 p,
 li {
     font-size: 18px;
+    text-align: center;
 }
 
 section {
@@ -105,12 +105,28 @@ aside {
     align-items: baseline;
     margin: 10px 0 20px;
     padding: 10px 0;
-    color: var(--text-color);
-    border-bottom: 1px solid var(--text-color);
 }
 
-.section-header>h3 {
+.section-header {
     font-size: 24px;
     font-weight: 400;
     margin: 5px 0;
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+ .main {
+     width: 60%;
+ }
+
+ aside {
+     width: 40%;
+ }
+
+  header {
+      flex-direction: column;
+      align-items: center;
+  }
