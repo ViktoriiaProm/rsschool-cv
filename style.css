@@ -3,6 +3,7 @@ body {
     background: #FFFFFF;
 
 }
+
 a {
     text-decoration: none;
     transition: 0.5s ease-in-out;
@@ -25,12 +26,36 @@ a {
     width: 18px;
     height: 18px;
     cursor: url();
+}
 
+.open-burger {
+    transform: translateY(0%);
+}
+
+.open {
+    padding: 5px 10px;
+    margin: 0 10px;
+    white-space: nowrap;
+    font-size: 24px;
+}
+
+.open:hover {
+    opacity: 0.7;
+}
+
+header {
+    display: flex;
+    background-color: rgb(162, 152, 152);
 }
 
 #burger-button:hover {
     opacity: 0.7;
 }
+
+my-photo {
+    width: 300px;
+}
+
 p,
 li {
     font-size: 18px;
@@ -44,6 +69,47 @@ h1 {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
-    font-family: ;
+    font-family: monospace;
 }
 
+h2 {
+    font-size: 28px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.main {
+    width: 70%;
+    padding: 20px;
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: azure;
+}
+
+
+.about-me {
+    margin: 15px 0;
+    font-size: 25px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 10px 0 20px;
+    padding: 10px 0;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+}
+
+.section-header>h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px 0;
+}
