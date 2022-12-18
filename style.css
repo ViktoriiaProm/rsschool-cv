@@ -1,6 +1,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: #b1e5eb;
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 a {
@@ -38,13 +44,17 @@ a {
     font-size: 24px;
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
 .open:hover {
     opacity: 0.7;
 }
 
 header {
     display: flex;
-    background-color: rgb(188, 112, 228);
 }
 
 #burger-button:hover {
@@ -65,6 +75,10 @@ section {
     margin-bottom: 30px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 h1 {
     text-align: center;
     font-size: 36px;
@@ -78,6 +92,7 @@ h2 {
 
 main {
     display: flex;
+    justify-content: center;
     width: 100%;
 }
 
@@ -86,12 +101,11 @@ main {
     padding: 20px;
 }
 
-aside {
-    width: 30%;
-    padding: 20px;
-    background-color: azure;
+h1,
+h2,
+h3{
+    text-align: center;
 }
-
 
 .about-me,
 .education {
@@ -102,31 +116,44 @@ aside {
 .section-header {
     display: flex;
     justify-content: flex-start;
-    align-items: baseline;
     margin: 10px 0 20px;
     padding: 10px 0;
 }
+
+.projectimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 
 .section-header {
     font-size: 24px;
     font-weight: 400;
     margin: 5px 0;
 }
+
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
- .main {
-     width: 60%;
- }
 
- aside {
-     width: 40%;
- }
+.main {
+    width: 60%;
+}
 
-  header {
-      flex-direction: column;
-      align-items: center;
-  }
+aside {
+    width: 100%;
+   text-align: center;
+}
+
+header {
+    flex-direction: column;
+    align-items: center;
+}
+code{
+    font-size: 22px;
+    text-align: center;
+}
