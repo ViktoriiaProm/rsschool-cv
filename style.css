@@ -6,7 +6,8 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 900px;
+    border: 1px solid black;
 }
 
 a {
@@ -88,6 +89,7 @@ h1 {
 
 h2 {
     font-size: 28px;
+    font-weight: 600;
 }
 
 main {
